@@ -20,8 +20,20 @@
         android:text="THIS BUTTON WAS CREATED BY HENRY"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="77dp"
+        android:layout_marginTop="22dp"
         android:id="@+id/button"
         android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="24dp"
+        android:layout_marginEnd="24dp" />
+
+    <TextView
+        android:text="This text created by Kaycie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:id="@+id/textView2" />
 </RelativeLayout>
